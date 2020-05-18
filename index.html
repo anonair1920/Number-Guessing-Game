@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+    <title>GUESSwat</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/cover/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner d-flex justify-content-between mb-5 pb-5">
+                <h3 class="masthead-brand">Number Guessing</h3>
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <main role="main" class="d-flex justify-content-around inner cover container">
+            <div>
+                <h3>history</h3>
+                <ul id='historyArea'>
+                </ul>
+            </div>
+            <div>
+                <h1 class="cover-heading pt-4 mb-1">Choose a number</h1>
+                <p class="lead">
+                <div class='container col-8 pb-4 pt-3'>
+                    <input id='input' type="number" class="form-control" aria-label="Large"
+                        aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class='container col-2 d-flex justify-content-around'>
+                    <button onclick='reset()' type="button" class="btn btn-info">Reset</button>
+                    <button id='guessButton' onclick='guess()' type="submit" class="btn btn-light">GUESS</button>
+                </div>
+                </p>
+                <p id='messageArea' class="lead pt-4"></p>
+            </div>
+            <div>
+                <div class='d-flex justify-content-around timeCount'>
+                    <h3>Time:</h3>
+                    <h4 id='timecount'></h4>
+                </div>
+                <h4 id='timecount'></h4>
+                <h3>Chances: </h3>
+                <h3 id='remainingArea'> 5 </h3>
+            </div>
+
+        </main>
+
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a
+                        href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+        </footer>
+    </div>
+<script src='js/main.js'></script>
+</body>
+
+</html>

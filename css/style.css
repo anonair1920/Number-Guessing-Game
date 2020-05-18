@@ -1,0 +1,32 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/92/57/07/9257075814313faa02af3f431ea9b9e0.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: whitesmoke;
+  }
+  
+  h3 {
+    text-shadow: 1px 1px 2px black, 0 0 15px lightblue, 0 0 5px whitesmoke;
+  }
+  
+  main {
+    background-color: rgb(0, 0, 0, 0.7);
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 350px;
+    align-items: baseline;
+  }
+  
+  h1 {
+      text-shadow: 1px 1px 2px black, 0 0 15px lightblue, 0 0 5px whitesmoke;
+  }
+  
+  input{
+      text-align: center;
+  }
+   
+  .timeCount{
+    align-items: baseline;
+  }
