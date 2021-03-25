@@ -2,6 +2,8 @@
 
 * A little HTML together with a pinch of Javascript and a tea spoon of CSS.
 
+[DEMO](https://best-number-guessing.netlify.app/)
+
 ## Required Features 🎯
 * The following required functionalities are completed:
 
