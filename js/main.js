@@ -55,7 +55,10 @@ function guess() {
 }
 
 function reset() {
-    time = 15;
+    time = 30;
+    if (time < 1){
+       gameOver();
+    }
     remaining = 5;
     history = [];
     randomNum = Math.round(Math.random() * 100);
